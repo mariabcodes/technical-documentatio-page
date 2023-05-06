@@ -1,0 +1,46 @@
+body {
+  background: #008B8B;
+}
+
+* { 
+  color: #FFEFD5;
+  font-size: 2vw;
+  font-family: monospace;
+  scroll-behaviour: smooth;
+}
+
+.main-section header {
+  color: #FFEFD5;
+  font-size: 3vw;
+  font-weight: bold;
+}
+
+li {
+  background-color: #DAA520;
+  border-radius: 10px;
+  width: 35%;
+  margin: 2%;
+  padding: 10px;
+  list-style: none;
+}
+
+a:link {
+  text-decoration: none;
+  color: #FFEFD5;
+  font-size: 2vw;
+}
+
+a:link:visited {
+  text-decoration: underline;
+  color: #FFEFD5;
+}
+
+a:link:hover {
+  color: #7FFFD4;
+}
+
+@media only screen and (min-width: 768) {
+  .nav-link {
+    width: 100%;
+  }
+} 
